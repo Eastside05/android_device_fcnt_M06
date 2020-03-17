@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # WiFi firmware symlink
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
