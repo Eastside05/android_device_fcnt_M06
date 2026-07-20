@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Board API level
+BOARD_SHIPPING_API_LEVEL := 31
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
@@ -33,6 +36,9 @@ PRODUCT_PACKAGES += \
     vendor_vm-system_mountpoint
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 34
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
