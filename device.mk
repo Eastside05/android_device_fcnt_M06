@@ -67,6 +67,11 @@ PRODUCT_COPY_FILES += \
 # Board API level
 BOARD_SHIPPING_API_LEVEL := 31
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.default \
