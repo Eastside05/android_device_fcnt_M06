@@ -178,6 +178,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.qti \
+    android.hardware.usb.gadget-service.qti \
+    usb_compositions.conf
+
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
